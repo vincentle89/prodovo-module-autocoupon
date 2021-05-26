@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="ioauto_coupon" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>AutoCoupon</label>
+			<tab>imageineonline</tab>
+			<resource>Imageineonline_AutoCoupon::config_imageineonline_autocoupon</resource>
+			<group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>General</label>
+				<field id="status" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Status</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+				</field>
+				<field id="message" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>Message</label>
+					<comment/>
+				</field>
+				<field id="error_message" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>Error Message</label>
+					<comment/>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
