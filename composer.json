@@ -1,5 +1,5 @@
 {
-    "name": "imageineonline/module-autocoupon",
+    "name": "vincentle89-imageineonline/module-autocoupon",
     "title": "Auto Coupon",
     "description": "Automatically apply coupons to the basket.",
     "type": "magento2-module",
