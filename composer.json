@@ -1,10 +1,10 @@
 {
-    "name": "imageineonline/module-autocoupon",
+    "name": "vincentle89-imageineonline/module-autocoupon",
     "title": "Auto Coupon",
     "description": "Automatically apply coupons to the basket.",
     "type": "magento2-module",
     "license": "GPL-3.0",
-    "version": "1.0.3",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Imageine Online",
@@ -13,7 +13,7 @@
     ],
     "minimum-stability": "alpha",
     "require": {
-        "imageineonline/module-base": "^1.0.1"
+        "imageineonline/module-base": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
