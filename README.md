@@ -1,8 +1,5 @@
 # Description
-
-The module allows a developer updating password via a command. 
-
-Magento 2 - update password for a specified user
+This module has an retrieve your last session and auto apply any coupons you may have had the last time you were logged into the website also as an added benefit it allows you to set coupons via the browser like so
 # Tech Stack
 | App | Version |
 | :------------- |:-------------:|
