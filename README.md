@@ -33,7 +33,7 @@ http://www.yoursite.com/applydiscount/?code=DISCOUNT-CODE&redirect_url=http://ww
     - public repository `packagist.org`
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require imageineonline/module-autocoupon`
+ - Install the module composer by running `composer require vincentle89-imageineonline/module-autocoupon`
  - enable the module by running `php bin/magento module:enable Imageineonline_AutoCoupon`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
